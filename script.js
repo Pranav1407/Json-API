@@ -6,7 +6,7 @@ const user = {
     mobile: 8248469714,
     date: '14/07/2003'
 }
-const handleRequest = () => {
+function handleRequest(){
 const postData = async () => {
     try
     {
