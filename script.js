@@ -6,10 +6,11 @@ const user = {
     mobile: 8248469714,
     date: '14/07/2003'
 }
+const handleRequest = () => {
 const postData = async () => {
     try
     {
-        const response = await fetch("http://localhost:3000/users", {
+        const response = await fetch("https://pranav1407.github.io/Json-API/db.json", {
             method : "POST",
             headers : {
                 "Content-Type" : "application/json"
@@ -21,12 +22,12 @@ const postData = async () => {
     {
         alert(err)
     }
-}
+}}
 
 const deleteData = async (id = 2) => {
     try
     {
-        const response = await fetch ("http://localhost:3000/users/" + id, {
+        const response = await fetch ("https://pranav1407.github.io/Json-API/db.json" + id, {
             method: "DELETE"
         })
     }
