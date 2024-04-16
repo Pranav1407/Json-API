@@ -4,7 +4,7 @@ const button = document.getElementById('btn')
 const updateButton = document.getElementById('upbtn')
 const table = document.getElementById('table')
 const dataButton = document.getElementById('getdata')
-const API_URL = "http://localhost:3000/users" // Local JSON server url running at port 3000
+const API_URL = "http://localhost:3000/users" // Local JSON server url running at port 3000 run the server by 'npx json-server -p 3000 db.json'
 var uid
 
 
